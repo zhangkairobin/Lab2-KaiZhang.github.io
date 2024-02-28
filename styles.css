@@ -3,7 +3,7 @@
 #flex-section1 ul {
 
 	display: flex; 
-    justify-content: space-between; 
+    justify-content: space-between;
     padding: 0; 
 	list-style-type: none; 
 	margin: 40px; 
@@ -24,6 +24,7 @@
     flex-wrap: wrap; 
     padding: 0; 
     list-style: none; 
+
 }
 
 #flex-section2 li {
@@ -88,7 +89,7 @@
 #flex-section3 .tags ul li {
     list-style: none; 
     margin: 0 5px; 
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0;
     padding: 5px 10px; 
     border-radius: 5px; 
 }
@@ -103,13 +104,13 @@
 
 
 #grid-section1 .grid {
-    display: grid;
+    display: grid; 
     grid-template-columns: repeat(4, 1fr); 
     gap: 20px; 
 }
 
 #grid-section1 .greybox {
-    background-color: #ccc; 
+    background-color: #ccc;
     padding: 10px; 
     text-align: center; 
     height: 100px; 
@@ -146,7 +147,7 @@
 
 #grid-section2 .gridboxred {
     grid-column: 1 / 2; 
-    grid-row: 2 / 3;
+    grid-row: 2 / 3; 
     background-1color: red; 
 	width: calc(100% + 240px); 
 
@@ -218,5 +219,6 @@
 }
 
 /* end Transition Part */
+
 
 
